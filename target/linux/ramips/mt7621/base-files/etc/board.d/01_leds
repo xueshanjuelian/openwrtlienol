@@ -270,6 +270,14 @@ z-router,zr-2660)
 	ucidef_set_led_netdev "wan" "wan" "green:wan" "wan" "link tx rx"
 	ucidef_set_led_netdev "wan-off" "wan-off" "red:wan" "wan" "link"
 	;;
+zte,e8820s)
+ 	ucidef_set_led_netdev "lan4" "LAN4" "green:lan-4" "lan4"
+ 	ucidef_set_led_netdev "wan" "WAN" "green:wan" "wan"
+ 	;;
+zte,e8820v2)
+ 	ucidef_set_led_netdev "lan4" "LAN4" "green:lan-4" "lan4"
+ 	ucidef_set_led_netdev "wan" "WAN" "green:wan" "wan"
+ 	;;
 zyxel,lte3301-plus)
 	ucidef_set_led_netdev "internet" "internet" "white:internet" "wwan0"
 	;;
